@@ -31,7 +31,7 @@ int main() {
   for (int i = 1; i <= n; i++) {
     noOfCombinations *= i;
   }
-
+//all combination n! number of combinations 
   double sum = 0.0;
   sort(all(a));
 
