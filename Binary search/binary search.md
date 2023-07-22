@@ -5,7 +5,7 @@
 - Find a specific page in a book
 - Guessing game
 
-##To know if the problem BS if he want max or min things and the constrains very big 
+##To know if the problem BS if he want max or min things and the constrains very big  and if problem behaviour normal EX :3 not 4 not the normal is 5 not 
 ``` txt
     0 1 2 3 4  5  6  => indexes
     2 3 5 7 11 13 17 => array
