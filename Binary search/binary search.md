@@ -10,7 +10,7 @@
     2 3 5 7 11 13 17 => array
 ```
 
-- Complexity **O(?)**
+- Complexity **O(log n)**
 
 - **Monotonic behavior**
 
@@ -37,7 +37,7 @@
 
     while (left <= right) {
         // int mid = (left + right) / 2;
-        int mid = left + (right - left) / 2; // Prevent overflow
+        int mid = left + (right - left) / 2; // Prevent overflow important
 
         if (arr[mid] < target)
             left = mid + 1;
@@ -88,7 +88,7 @@
             left = mid + 1;
         else if (arr[mid] > target) // upper-bound
             right = mid - 1, index = mid;
-//        else if (arr[mid] >= target) // lower-bound
+//        else if (arr[mid] >= target) // lower-bound greater than or equl
 //            right = mid - 1, index = mid;
     }
 
@@ -134,7 +134,7 @@
     int x;
     cin >> x;
     auto it = lower_bound(b.begin(), b.end(), x);
-    auto index = it - b.begin();
+    auto index = it - b.begin();//to get index important
 
     if (it != b.end()) {
         cout << *it << endl;
