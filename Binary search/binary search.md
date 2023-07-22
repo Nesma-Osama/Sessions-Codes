@@ -5,6 +5,7 @@
 - Find a specific page in a book
 - Guessing game
 
+##To know if the problem BS if he want max or min things and the constrains very big 
 ``` txt
     0 1 2 3 4  5  6  => indexes
     2 3 5 7 11 13 17 => array
